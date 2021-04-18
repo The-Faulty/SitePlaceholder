@@ -1,0 +1,55 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  margin: 0;
+  border: 0;
+  padding: 0;
+}
+
+a.button {
+  -webkit-appearance: button;
+  -moz-appearance: button;
+  appearance: button;
+
+  text-decoration: none;
+  color: initial;
+}
+
+.gitLink {
+  position: absolute;
+  left: 1rem;
+  bottom: 3.5rem;
+  box-shadow: 0 0 0 0.125rem black;
+  border-radius: 50%;
+  height: 2.5rem;
+  width: 2.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #bdbdbd;
+}
+.gitLink img {
+  display: block;
+  height: 2rem;
+  width: 2rem;
+}
+
+.openDisc {
+  position: absolute;
+  display: flex;
+  width: 9rem;
+  height: 1.75rem;
+  vertical-align: center;
+  text-decoration: none;
+  color: black;
+  outline: none;
+  border: 0.15rem solid;
+  border-radius: 1rem;
+  font-weight: bold;
+  bottom: 1rem;
+  left: 1rem;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+  background-color: #bdbdbd;
+}
